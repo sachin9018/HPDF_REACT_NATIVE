@@ -33,15 +33,15 @@ console.log('Hello World');
 
 
 const ScreenNavigator= TabNavigator({
-    tab1:{screen:home},
-    tab2:{screen:notification},
-    tab3:{screen:messages},
-    tab4:{screen:search}
+    tab1:{screen:Home},
+    tab2:{screen:Notification},
+    tab3:{screen:Messages},
+    tab4:{screen:Search}
   },{
-    tabBarPosition:'left',
+    tabBarPosition:'bottom',
     swipeEnabled:false,
     tabBarOptions:{
-      activeTintColor:'white',
+      activeTintColor:'gray',
       activeBackgroundColor:'gray',
       inactiveTintColor:'blue',
       inactiveBackgroundColor:'green',
