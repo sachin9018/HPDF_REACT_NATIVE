@@ -12,16 +12,16 @@ export default class third extends React.Component{
       {
       flex: 1,
       justifyContent: 'center',
-      alignItems: 'center',
-        wrapText:true
+      alignItems: 'justify',
+        wrapText:false
       }
     }>
 
 
     <Image 
-style={{width: 120, height: 120, marginTop:30, marginBottom:30, alignItems: 'center'}}
+style={{width: 130, height: 130, marginTop:31, marginBottom:32, alignItems: 'center'}}
 source={{uri:'https://pbs.twimg.com/profile_images/875603699694948354/vR77CGM9_400x400.jpg'}}/>
-    <Text style={{fontSize: 20, color: '#55BCEE'}}>
+    <Text style={{fontSize: 18, color: '#55BCEE'}}>
     Inbox Component
     </Text>
         </View>  
